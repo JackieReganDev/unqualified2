@@ -133,10 +133,10 @@ h2 {
 }
 
 .bg1 {
-	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726016032/roots_cr0jah.jpg);
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726513806/colorful-eye_azim8y.jpg);
 }
 .bg2 {
-	background-image: url(https://via.placeholder.com/1920x686);
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
 	background-attachment: fixed;
 }
 .bg3 {
@@ -158,7 +158,7 @@ h2 {
 	background-image: url(https://via.placeholder.com/1920x1080);
 }
 .bg9 {
-	background-color:#000;
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726513987/oil_xipj0z.png);
 }
 .bg10 {
 	background-image: url(https://via.placeholder.com/1920x1080);
@@ -188,7 +188,7 @@ h2 {
 	background-image: url(https://via.placeholder.com/1920x1079);
 }
 .black-bg {
-	background-color: #000 !important;
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726514788/jake-weirick-Q_RBVFFXR_g-unsplash_hasi0i.jpg) !important;
 }
 .container {
 	max-width: 1200px;
@@ -248,7 +248,7 @@ header nav ul ul {
 	top: 100%;
 	left: 0;
 	width: 200px;
-	background-color: #bb0ccb;
+	background-color: #e627d0;
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
@@ -285,7 +285,7 @@ header nav ul li:before {
 	transform: translateY(-50%);
 	width: 100%;
 	height: 2px;
-	background-color: #bb0ccb;
+	background-color: #e627d0;
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
@@ -316,7 +316,7 @@ header nav > ul > li > a:hover {
 }
 .social-links.hd-v li a:hover,
 header.sticky .social-links.hd-v li a:hover {
-	color: #6a14b6;
+	color: #e627d0;
 }
 .social-links.hd-v li {
 	margin-right: 27px;
@@ -479,7 +479,7 @@ header.sticky .social-links.hd-v li a:hover {
 	left: 50%;
 	width: 87px;
 	height: 3px;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 	transform: translateX(-50%);
 }
 
@@ -574,7 +574,7 @@ a:hover {
 }
 .theme-btn:hover {
 	color: #fff;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 	border-color: transparent;
 }
 .shows-row .row {
@@ -625,7 +625,7 @@ a:hover {
 	left: 0;
 	width: 87px;
 	height: 3px;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 }
 
 .about-text {
@@ -758,6 +758,7 @@ a:hover {
 /* CONTACT SECTION */
 
 .contact-section {
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
 	padding: 270px 0 0 0;
 }
 .ct-content {
@@ -899,7 +900,7 @@ background-image: linear-gradient(43deg, #0a0a0a 0%, #7b21d5 52%, #FC73CB 100%);
 	font-size: 18px;
 }
 button.theme-btn {
-	background-color: #7B21D5;
+	background-color: #f559a4;
 	color: #fff;
 	border:0;
 	padding: 0 59px;
@@ -1007,7 +1008,7 @@ header.sticky .menu-btn > span {
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 }
 .responsive-mobile-menu.active {
 	opacity: 1;
@@ -1083,10 +1084,12 @@ div#html5-image {
 
 /* ALBUM SECTION */
 
-
+.album-section{
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
+}
 .alb-title > span {
 	display: block;
-	color: #7B21D5;
+	color: #e627d0;
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 2px;
@@ -1290,7 +1293,7 @@ a.jp-playlist-item.jp-playlist-current {
 	line-height: 74px !important;
 	text-align: center;
 	border-radius: 50% !important;
-	background-color: #7B21D5 !important;
+	background-color: #f559a4 !important;
 	display: inline-block;
 	font-size: inherit !important;
 }
@@ -1424,7 +1427,7 @@ a.jp-playlist-item.jp-playlist-current {
 	margin-right: 5px;
 }
 .bt-btns li a.spotify:hover {
-	background-color: #7B21D5;
+	background-color: #f559a4;
 	border-color: transparent;
 	color: #fff;
 }
@@ -1723,7 +1726,7 @@ a.jp-playlist-item.jp-playlist-current {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
@@ -2023,7 +2026,7 @@ header.sticky .dark-logo {
 	width: 87px;
 	height: 3px;
 	display: inline-block;
-	background-color: #7B21D5;
+	background-color: #f559a4;
 }
 
 #slide-6-layer-1,
@@ -2134,7 +2137,7 @@ header.sticky .dark-logo {
 }
 
 .dark-background {
-	background-color: #000000;
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726514788/jake-weirick-Q_RBVFFXR_g-unsplash_hasi0i.jpg);
 }
 .black-version .sm-title:before,
 .black-version header nav ul li.active:before {
@@ -2979,7 +2982,7 @@ header.sticky .social-links.hd-v li a:hover {
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	background: #7B21D5;
+	background: #f559a4;
 	width: 85px;
 	height: 3px;
 }
@@ -3190,7 +3193,7 @@ header.sticky .social-links.hd-v li a:hover {
     display: block;
     position: relative;
     overflow: hidden;
-    background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726015213/mushies_o49u6n.png);
+    background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726511927/uq-intro-trippy-trees_d1j2cp.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
