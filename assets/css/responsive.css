@@ -83,6 +83,7 @@
 }
 
 @media (max-width: 768px) {
+	.home-section {background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726516864/4289439_hpawav.png) !important;height: 600px;}
 	.banner-text > h1 {font-size: 70px;line-height: 70px;}
 	.section-title {margin-bottom: 80px;}
 	.dp-text {margin-bottom: 50px;}
