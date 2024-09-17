@@ -1092,6 +1092,10 @@ div#html5-image {
 .album-section{
 	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726592071/abstract_uml5n2.webp);
 }
+.alb-title {
+	background-color: rgba(0,3,6,0.67);
+	border-radius: 10%;
+}
 .alb-title > span {
 	display: block;
 	color: #FC73CB;
