@@ -122,7 +122,7 @@
 }
 
 @media (max-width: 576px) {
-	body {overflow: hidden;}
+	body {padding-right: 0!important;margin-right: 0!important;}
 	#home {height: 600px!important;}
 	.container {background-position: fixed;}
 	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png); background-repeat: no-repeat;background-size: cover;padding-right: 0!important;padding-bottom: 0 !important;height: inherit;}
@@ -152,7 +152,7 @@
 }
 
 @media (max-width: 480px) {
-	body {overflow: hidden;}
+	body {padding-right: 0!important;margin-right: 0!important;}
 	#home {height: 600px!important;}
 	.container {background-position: fixed;}
 	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png);background-repeat: no-repeat;background-size: cover;padding-right: 0!important;padding-bottom: 0 !important;height: inherit;object-fit:contain;}
