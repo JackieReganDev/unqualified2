@@ -62,7 +62,7 @@
 	br {display: none;}
 	.jp-controls button {margin: 0 10px;}
 	.music-player {position: static;background-color: #000;}
-	.album-section.block {padding-top: 300px;}
+	.album-section.block {padding-top: 50px;}
 	.tp-bullets, .tp-tabs, .tp-thumbs {display: inline-block !important;}
 	.inp-block {margin-top: 150px;}
 	.coming-soon-page .music-player {display: none;}
@@ -83,6 +83,7 @@
 }
 
 @media (max-width: 768px) {
+	.container {overflow: hidden;}
 	.section-title {margin-bottom: 80px;}
 	.dp-text {margin-bottom: 50px;}
 	.footer-content {text-align: center;}
@@ -106,7 +107,7 @@
 	.section-title > h2 {font-size: 34px;line-height: 44px;}
 	.section-title {margin-bottom: 50px;}
 	.has-5-columns .col-lg-2 {max-width: 50%;flex: 0 0 50%;}
-	.album-section.block {padding-top: 300px;margin-top: 120px;}
+	.album-section.block {padding-top: 20px;margin-top: 10px;}
 	.inp-block {margin-top: 300px;}
 	.musize-dt {max-width: 100%;flex: 0 0 100%;padding: 30px 20px;}
 	.musiz-playz-row {justify-content: center;}
@@ -120,7 +121,9 @@
 }
 
 @media (max-width: 576px) {
-	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png); background-repeat: no-repeat;background-size: contain;}
+	.style element{height: 500px;}
+	.container {overflow: hidden;}element .style{height: 500px;}
+	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png); background-repeat: no-repeat;background-size: contain;padding-right: 0!important;padding-bottom: 0 !important;overflow: hidden;height: inherit;}
 	.banner-text p {font-size: 20px;line-height: 30px;}
 	.jp-interface .jp-controls {justify-content: center;margin-bottom: 30px;}
 	.oth-controls {display: flex;flex-wrap: wrap;align-items: center;}
@@ -146,14 +149,16 @@
 }
 
 @media (max-width: 480px) {
-	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png);background-repeat: no-repeat;background-size: contain;padding-right: 0!important;}
+	.style element {height: 500px;}
+	.container {overflow: hidden;}
+	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png);background-repeat: no-repeat;background-size: contain;padding-right: 0!important;padding-bottom: 0 !important;overflow: hidden;height: inherit;}
 	.banner-text > h1 {font-size: 54px;line-height: 60px;}
-	.section-title > h2 {font-size: 36px;line-height: 42px;margin-bottom: 30px;}
+	.section-title > h2 {font-size: 36px;line-height: 42px;margin-bottom: 0px;}
 	.play-btn {width: 100px;height: 100px;line-height: 100px;}
 	.music-video > h3 {font-size: 24px;}
 	.ct-head {margin-bottom: 50px;}
 	.wd-content {margin-bottom: 50px;}
-	.contact-content {padding: 80px 15px 40px;}
+	.contact-content {padding: 120px 15px 40px;}
 	.input-field {margin-bottom: 30px;}
 	.alb-title > h2 {font-size: 32px;line-height: 42px;}
 	.in-head > h2 {font-size: 24px;line-height: 34px;}
