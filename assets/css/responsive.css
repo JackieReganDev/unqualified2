@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 768px) {
-	.bg1 {backgorund-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
+	.bg1 {background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
 	.container {background-position: fixed;}
 	.section-title {margin-bottom: 80px;}
 	.dp-text {margin-bottom: 50px;}
@@ -123,7 +123,7 @@
 }
 
 @media (max-width: 576px) {
-	.bg1 {backgorund-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
+	.bg1 {background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
 	body {padding-right: 0!important;margin-right: 0!important;}
 	#home {height: 600px!important;}
 	.container {background-position: fixed;}
@@ -154,7 +154,7 @@
 }
 
 @media (max-width: 480px) {
-	.bg1 {backgorund-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
+	.bg1 {background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726593686/mobile-eye_oiu1h9.png);}
 	body {padding-right: 0!important;margin-right: 0!important;}
 	#home {height: 600px!important;}
 	.container {background-position: fixed;}
