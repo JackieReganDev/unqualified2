@@ -1132,7 +1132,9 @@ div#html5-image {
 .album-playlist-section {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #fff;
+	background-color: #0a0a0a;
+background-image: linear-gradient(43deg, #0a0a0a 0%, #f559a4 52%, #FC73CB 100%);
+;
 	padding: 40px;
 	border-radius: 15px;
 }
@@ -1285,6 +1287,7 @@ a.jp-playlist-item.jp-playlist-current {
 	float: none;
 }
 .jp-controls button:hover {
+	background-color: #fff;
 	color: #000;
 }
 .jp-controls button.jp-play {
@@ -1293,12 +1296,13 @@ a.jp-playlist-item.jp-playlist-current {
 	line-height: 74px !important;
 	text-align: center;
 	border-radius: 50% !important;
-	background-color: #f559a4 !important;
+	background-color: #000 !important;
+	
 	display: inline-block;
 	font-size: inherit !important;
 }
 .jp-controls button.jp-play i {
-	color: #000;
+	color: #fff;
 	font-size: 24px;
 	position: relative;
 	left: 1px;
