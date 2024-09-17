@@ -764,7 +764,6 @@ a:hover {
 .ct-content {
 	background-color: #0a0a0a;
 background-image: linear-gradient(43deg, #0a0a0a 0%, #f559a4 52%, #FC73CB 100%);
-;
 	max-width: 1200px;
 	margin-left: auto;
 }
@@ -1008,7 +1007,8 @@ header.sticky .menu-btn > span {
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
-	background-color: #f559a4;
+	background-color: #0a0a0a;
+background-image: linear-gradient(56deg, #0a0a0a 0%, #f559a4 52%, #FC73CB 100%);
 }
 .responsive-mobile-menu.active {
 	opacity: 1;
@@ -1089,7 +1089,7 @@ div#html5-image {
 }
 .alb-title > span {
 	display: block;
-	color: #e627d0;
+	color: #FC73CB;
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 2px;
@@ -1297,7 +1297,6 @@ a.jp-playlist-item.jp-playlist-current {
 	text-align: center;
 	border-radius: 50% !important;
 	background-color: #000 !important;
-	
 	display: inline-block;
 	font-size: inherit !important;
 }

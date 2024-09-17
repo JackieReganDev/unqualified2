@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 768px) {
-	.container {overflow: hidden;}
+	.container {background-position: fixed;}
 	.section-title {margin-bottom: 80px;}
 	.dp-text {margin-bottom: 50px;}
 	.footer-content {text-align: center;}
@@ -118,12 +118,13 @@
 	.ld-text > h2 {font-size: 60px;line-height: 70px;}
 	.sec-v-title h2 {font-size: 32px;line-height: 40px;}
 	.landing-footer {padding: 50px 0;}
+	.responsive-mobile-menu {padding-top:120px;}
 }
 
 @media (max-width: 576px) {
-	.style element{height: 500px;}
-	.container {overflow: hidden;}element .style{height: 500px;}
-	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png); background-repeat: no-repeat;background-size: contain;padding-right: 0!important;padding-bottom: 0 !important;overflow: hidden;height: inherit;}
+	#home {height: 600px!important;}
+	.container {background-position: fixed;}
+	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png); background-repeat: no-repeat;background-size: cover;padding-right: 0!important;padding-bottom: 0 !important;height: inherit;}
 	.banner-text p {font-size: 20px;line-height: 30px;}
 	.jp-interface .jp-controls {justify-content: center;margin-bottom: 30px;}
 	.oth-controls {display: flex;flex-wrap: wrap;align-items: center;}
@@ -146,12 +147,13 @@
 	.testi-lg-info {padding: 50px 15px;}
 	.ld-logo {margin-bottom: 80px;}
 	.ld-ft > img {max-width: 200px;margin-bottom: 30px;}
+	.responsive-mobile-menu {padding-top:120px;}
 }
 
 @media (max-width: 480px) {
-	.style element {height: 500px;}
-	.container {overflow: hidden;}
-	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png);background-repeat: no-repeat;background-size: contain;padding-right: 0!important;padding-bottom: 0 !important;overflow: hidden;height: inherit;}
+	#home {height: 600px!important;}
+	.container {background-position: fixed;}
+	.home-section {background: url(https://res.cloudinary.com/jackieregs/image/upload/v1726526513/mobile-bg_1_lo7s9x.png);background-repeat: no-repeat;background-size: cover;padding-right: 0!important;padding-bottom: 0 !important;height: inherit;object-fit:contain;}
 	.banner-text > h1 {font-size: 54px;line-height: 60px;}
 	.section-title > h2 {font-size: 36px;line-height: 42px;margin-bottom: 0px;}
 	.play-btn {width: 100px;height: 100px;line-height: 100px;}
@@ -188,6 +190,7 @@
 	.testi-lg-info > h3 {margin-bottom: 20px;}
 	.ld-text > h2 {font-size: 50px;line-height: 60px;}
 	.landing-footer {padding: 40px 0;}
+	.responsive-mobile-menu {padding-top:120px;}
 }
 
 
