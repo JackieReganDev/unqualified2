@@ -107,6 +107,7 @@ a {
 	color: inherit;
 }
 img {
+	border-radius: 5%;
 	vertical-align: middle;
 	height: auto;
 	display: inline-block;
@@ -129,14 +130,14 @@ h2 {
 	background-repeat: no-repeat;
 	z-index: -1;
 	background-position: center center;
-	border-bottom: 3.5px solid black;
+	border-bottom: 3.5px solid ;
 }
 
 .bg1 {
 	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726512672/eye_hbry8d.jpg);
 }
 .bg2 {
-	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726592071/abstract_uml5n2.webp);
 	background-attachment: fixed;
 }
 .bg3 {
@@ -629,6 +630,8 @@ a:hover {
 }
 
 .about-text {
+	border-radius: 5%;
+	background-color: rgba(0,3,6,0.67);
 	max-width: 620px;
 	margin-left: auto;
 	padding-right: 130px;
@@ -716,6 +719,7 @@ a:hover {
 	height: 100%;
 }
 .gallery-col > img {
+	border-radius: 5%;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -758,10 +762,11 @@ a:hover {
 /* CONTACT SECTION */
 
 .contact-section {
-	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726592071/abstract_uml5n2.webp);
 	padding: 270px 0 0 0;
 }
 .ct-content {
+	border-radius: 5%;
 	background-color: #0a0a0a;
 background-image: linear-gradient(43deg, #0a0a0a 0%, #f559a4 52%, #FC73CB 100%);
 	max-width: 1200px;
@@ -1085,7 +1090,7 @@ div#html5-image {
 /* ALBUM SECTION */
 
 .album-section{
-	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726515681/stars_pu7hjo.png);
+	background-image: url(https://res.cloudinary.com/jackieregs/image/upload/v1726592071/abstract_uml5n2.webp);
 }
 .alb-title > span {
 	display: block;
@@ -1643,15 +1648,19 @@ a.jp-playlist-item.jp-playlist-current {
 	max-width: 50px;
 }
 .spotify-ic {
+	border-radius: 5%;
 	background-color: #2dbc58;
 }
 .music {
+	border-radius: 5%;
 	background-color: #7B21D5;
 }
 .youtube {
+	border-radius: 5%;
 	background-color: #fc002a;
 }
 .soundcloud {
+	border-radius: 5%;
 	background-color: #f57107;
 }
 .about-lg-content {

@@ -55,7 +55,7 @@
 	.about-lg-content > h2 {font-size: 36px;line-height: 50px;padding-right: 0;}
 	.abt-lg-image {margin-bottom: 60px;}
 	.about-lg-content > h2 {margin-bottom: 50px;}
-	.contact-section {padding-top: 0;}
+	.contact-section {padding-top: 180px;}
 	.section-title {margin-bottom: 50px;}
 	.shows-row .theme-btn {width: auto;font-size: 18px;}
 	.ct-content {border-top: 1px solid #ddd;}
@@ -91,7 +91,7 @@
 	.ft-logo {margin-bottom: 40px;}
 	.social-links.v2 {text-align: center;}
 	footer {padding: 40px 0;}
-	.contact-content {padding: 80px 50px 20px;}
+	.contact-content {padding: 180px 50px 20px;}
 	.alb-title {text-align: center;margin-bottom: 40px;}
 	.album-dt {text-align: center;}
 	.album-img {max-width: 100%;flex: 0 0 100%;margin-bottom: 50px;}
@@ -162,7 +162,7 @@
 	.music-video > h3 {font-size: 24px;}
 	.ct-head {margin-bottom: 50px;}
 	.wd-content {margin-bottom: 50px;}
-	.contact-content {padding: 120px 15px 40px;}
+	.contact-content {padding: 200px 15px 40px;}
 	.input-field {margin-bottom: 30px;}
 	.alb-title > h2 {font-size: 32px;line-height: 42px;}
 	.in-head > h2 {font-size: 24px;line-height: 34px;}
