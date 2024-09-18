@@ -98,6 +98,7 @@ textarea {
 	outline: none;
 }
 section {
+	border-bottom: 3px solid #42b6f4; 
 	display: block;
 	position: relative;
 }
@@ -120,7 +121,6 @@ h2 {
 	clear: both;
 }
 .fixed-bg {
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -130,7 +130,6 @@ h2 {
 	background-repeat: no-repeat;
 	z-index: -1;
 	background-position: center center;
-	border-bottom: 3.5px solid ;
 }
 
 .bg1 {
@@ -1012,8 +1011,7 @@ header.sticky .menu-btn > span {
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.4s ease-in-out;
-	background-color: #0a0a0a;
-background-image: linear-gradient(56deg, #0a0a0a 0%, #f559a4 52%, #FC73CB 100%);
+	background-color: #000;
 }
 .responsive-mobile-menu.active {
 	opacity: 1;
@@ -1094,7 +1092,7 @@ div#html5-image {
 }
 .alb-title {
 	background-color: rgba(0,3,6,0.67);
-	border-radius: 10%;
+	border-radius: 5px;
 }
 .alb-title > span {
 	display: block;
@@ -1396,6 +1394,8 @@ a.jp-playlist-item.jp-playlist-current {
 /* BOTTOM TEXT */
 
 .bottom-text {
+	background-color: rgba(0,3,6,0.67);
+	border-radius: 5px;
 	max-width: 560px;
 	margin: 0 auto;
 	text-align: center;
